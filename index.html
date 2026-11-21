@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taste the Feeling — Coca-Cola Motion</title>
+    <meta name="description" content="A motion-driven landing page concept with a 3D Coca-Cola can." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/cola-motion/favicon.svg" />
+    <script type="module" crossorigin src="/cola-motion/assets/index-fMo6AOm-.js"></script>
+    <link rel="stylesheet" crossorigin href="/cola-motion/assets/index-DTuVcTW8.css">
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true"><span class="loader__dot"></span></div>
+
+    <canvas id="webgl" aria-hidden="true"></canvas>
+
+    <header class="nav">
+      <a href="#hero" class="nav__logo">Coca-Cola</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#cold">Ice Cold</a>
+        <a href="#flavors">Flavors</a>
+        <a href="#story">Story</a>
+        <a href="#share" class="nav__cta">Share a Coke</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1. HERO -->
+      <section id="hero" class="hero" data-bg="#e3000b">
+        <h1 class="hero__title" aria-label="Taste the Feeling">
+          <span class="hero__line" data-split>TASTE THE</span>
+          <span class="hero__line" data-split>FEELING</span>
+        </h1>
+        <div class="hero__meta">
+          <p class="hero__tag">Real magic, since 1886.</p>
+          <div class="hero__scroll"><span></span>Scroll</div>
+        </div>
+      </section>
+
+      <!-- 2. ICE COLD -->
+      <section id="cold" class="cold" data-bg="#0b1a2a">
+        <div class="cold__content">
+          <p class="eyebrow">Ice Cold</p>
+          <h2 class="section-title reveal">Best served<br />at <em>3°C.</em></h2>
+          <p class="lead reveal">
+            Crisp bubbles, a sharp fizz and that first sip that cuts through the heat.
+            Chill it, crack it, feel it.
+          </p>
+          <ul class="stats">
+            <li class="reveal"><strong data-count="3">0</strong><span>°C perfect temp</span></li>
+            <li class="reveal"><strong data-count="330">0</strong><span>ml of refreshment</span></li>
+            <li class="reveal"><strong data-count="200">0</strong><span>countries served</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3. FLAVORS -->
+      <section id="flavors" class="flavors">
+        <div class="flavors__track">
+          <article class="flavor" data-flavor="original" data-bg="#e3000b">
+            <p class="eyebrow">01 / Original</p>
+            <h2 class="flavor__name">Original<br />Taste</h2>
+            <p class="lead">The classic. Unmistakable since day one.</p>
+          </article>
+          <article class="flavor" data-flavor="zero" data-bg="#111111">
+            <p class="eyebrow">02 / Zero Sugar</p>
+            <h2 class="flavor__name">Zero<br />Sugar</h2>
+            <p class="lead">All of the taste. None of the sugar.</p>
+          </article>
+          <article class="flavor" data-flavor="diet" data-bg="#5c6168">
+            <p class="eyebrow">03 / Light</p>
+            <h2 class="flavor__name">Light<br />Taste</h2>
+            <p class="lead">Light, bright and endlessly refreshing.</p>
+          </article>
+          <article class="flavor" data-flavor="cherry" data-bg="#5a0016">
+            <p class="eyebrow">04 / Cherry</p>
+            <h2 class="flavor__name">Cherry<br />Kick</h2>
+            <p class="lead">A bold twist of dark cherry.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 4. STORY -->
+      <section id="story" class="story" data-bg="#f6efe6">
+        <div class="story__inner">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="section-title reveal">A sip of<br />history.</h2>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__year">1886</span>
+              <div>
+                <h3>The first glass</h3>
+                <p>Poured at a pharmacy soda fountain in Atlanta for five cents.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__year">1915</span>
+              <div>
+                <h3>The contour bottle</h3>
+                <p>A shape you could recognise in the dark — and still can.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__year">1955</span>
+              <div>
+                <h3>Into the can</h3>
+                <p>Refreshment goes portable, ready for every adventure.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__year">Today</span>
+              <div>
+                <h3>Shared everywhere</h3>
+                <p>Opened billions of times a day, in every corner of the world.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 5. SHARE -->
+      <section id="share" class="share" data-bg="#e3000b">
+        <div class="share__content">
+          <h2 class="share__title reveal">Share a<br />Coke.</h2>
+          <p class="lead reveal">Moments are better together. Grab two and pass one on.</p>
+          <button class="btn" type="button" id="popBtn">
+            <span>Crack one open</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>A motion design concept. Not affiliated with The Coca-Cola Company.</p>
+      <nav aria-label="Social">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </nav>
+    </footer>
+
+  </body>
+</html>
