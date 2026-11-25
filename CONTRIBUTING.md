@@ -3,11 +3,6 @@
 Thanks for wanting to help. Cola Motion is a small, single-page 3D experience, so focused patches and
 clear bug reports go a long way.
 
-## Code of conduct
-
-By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md). Be kind, assume good intent,
-and keep feedback about the work.
-
 ## Ways to contribute
 
 - **Code** — improve the can model, condensation, particles or scroll choreography.
